@@ -1,0 +1,164 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
+    background-image: url("../images/bg-yellow.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.shadow {
+    box-shadow: 1px 1px 7px lightgray;
+}
+header#top {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-image: url("../images/bg.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    border-bottom: 5px solid #0c07f9;
+
+}
+header#top > h1#title {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+}
+
+header#top > img.my-logo {
+    position: absolute;
+    top:0;
+    left:50px;
+    width: 13.5%;
+    height: auto;
+    z-index: 99;
+}
+div#wrapper {
+    position: absolute;
+    top: 250px;
+    z-index: -1;
+    width: 100%;
+    overflow: hidden;
+}
+div#MainContainer {
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+    background-color: rgba(250, 241, 110, 0.5);
+}
+nav#top {
+    padding:10px;
+    margin: 0px auto;
+    width: 80%;
+}
+
+nav#top > ul {
+    list-style-type: none;
+}
+nav#top > ul > li {
+    display: inline;
+    font-size: 1.2em;
+    padding: 0px 0px;
+}
+nav#top > ul > li > a {
+    text-decoration: none;
+    transition: background 0.5s linear 0s, color 0.3s linear 0s;
+    padding: 5px 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+nav#top > ul > li > a:focus {
+    color: #ffff00;
+}
+nav#top > ul > li > a:hover{
+    text-decoration: none;
+    color: #ffff00;
+    background-color: rgba(0, 211, 255, 0.84);
+}
+.active {
+    background-color: rgba(0, 211, 255, 0.84);
+    color: #ffff00;
+}
+
+div#featured {
+    padding: 10px 0px;
+    margin:0 auto;
+    width: 65%;
+}
+div.featured {
+    position: relative;
+    height: 120px;
+}
+div.featured > div > img {
+    width: 100%;
+    background-color: #005888;
+    height: 100%;
+}
+div#f_design div, div#f_product div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 0;
+}
+div#f_events {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+
+}
+#lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .75);
+    z-index: 2;
+}
+
+.popUp {
+    margin:3% auto;
+    padding: 0px 0px;
+    width:60%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 1px 1px 20px 10px rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+}
+div#popUp ul {
+    list-style-type: none;
+}
+div#popUp ul li {
+    display: inline;
+}
+div#popUp ul li img {
+    display: block;
+    width: 200px;
+    height: auto;
+    float: left;
+    padding: 2px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+.popUp i {
+    cursor: pointer;
+    float: right;
+
+}
+#popUp img:hover {
+    cursor: pointer;
+    opacity: 1.0;
+}
+.footerBottomSection {
+    color: #428bca;
+    border-bottom: 3px solid #0000ff;
+    background-color: rgba(246, 255, 12, 1);
+    padding: 20px 0;
+    margin: 20px 0 0px 0;
+}

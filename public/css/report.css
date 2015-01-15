@@ -1,0 +1,22 @@
+@page  {
+    size: auto;
+    margin: 0in 0in;
+    orphans:4;
+    widows:2;
+}
+@media print {
+    * {
+        font-family: Arial;
+        color: #000 !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+    .panel-default {
+        border: hidden;
+        font-size: 12px;
+    }
+    .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+        padding: 2px;
+    }
+}
